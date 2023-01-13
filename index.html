@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="en"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="shiballiance, shibarium, blockchain, chain, crypto, shib, shiba, shiba inu, inu">
+    <meta name="description" content="Welcome to the SHIBAlliance on the L2 Shibarium Blockchain - we support every Project. Get in touch with us.">
+    <title>SHIBAlliance</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="SHIBAlliance.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="referrer" content="origin">
+    <meta property="og:title" content="SHIBAlliance">
+    <meta property="og:description" content="Welcome to the SHIBAlliance on the L2 Shibarium Blockchain - we support every Project. Get in touch with us.">
+    <meta property="og:url" content="https://shiballiance.org">
+    
+    <link id="u-theme-google-font" rel="stylesheet" href="fonts.css">
+    <link id="u-page-google-font" rel="stylesheet" href="SHIBAlliance-fonts.css">
+    
+    
+    
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "SHIBAlliance",
+		"logo": "images/SHIBAllianceLOGOCustom.png"
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:type" content="website">
+  </head>
+  <body data-home-page="SHIBAlliance.html" data-home-page-title="SHIBAlliance" class="u-body u-overlap u-overlap-contrast u-xl-mode" data-lang="en"><header class="header u-clearfix u-header u-sticky u-sticky-da24" id="sec-69d4"><div class="u-clearfix u-sheet u-sheet-1">
+        <img class="u-image u-image-contain u-image-default u-preserve-proportions lazyload u-image-1" alt="" data-image-width="256" data-image-height="256" data-src="images/SHIBAllianceLOGOCustom.png">
+      </div><style class="u-sticky-style" data-style-id="da24">.u-sticky-fixed.u-sticky-da24, .u-body.u-sticky-fixed .u-sticky-da24 {
+box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4) !important
+}</style></header>
+    <section class="u-black u-clearfix u-valign-middle-xs u-valign-top-lg u-section-1" id="sec-3c29">
+      <div class="c u-clearfix u-custom-html u-expanded-width u-custom-html-1">
+        <canvas id="c" style=" position:fix; position:absolute" ;=""></canvas>
+        <script> // geting <script> // geting <script> 
+        var c = document.getElementById("c");
+        var ctx = c.getContext("2d");
+        //making the canvas full screen
+        c.height = window.innerHeight;
+        c.width = window.innerWidth;
+        //chinese characters - taken from the unicode charset
+        var matrix = "次クラブ見性将来ピクセル男";
+        //converting the string into an array of single characters
+        matrix = matrix.split("");
+        var font_size = 8;
+        var columns = c.width/font_size; //number of columns for the rain
+        //an array of drops - one per column
+        var drops = [];
+        //x below is the x coordinate
+        //1 = y co-ordinate of the drop(same for every drop initially)
+        for(var x = 0; x < columns; x++)
+            drops[x] = 1; 
+        //drawing the characters
+        function draw()
+        {
+            //Black BG for the canvas
+            //translucent BG to show trail
+            ctx.fillStyle = "rgba(0, 0, 0, 0.04)";
+            ctx.fillRect(0, 0, c.width, c.height);
+            ctx.fillStyle = "#0b9150";//green text
+            ctx.font = font_size + "px arial";
+            //looping over drops
+            for(var i = 0; i < drops.length; i++)
+            {
+                //a random chinese character to print
+                var text = matrix[Math.floor(Math.random()*matrix.length)];
+                //x = i*font_size, y = value of drops[i]*font_size
+                ctx.fillText(text, i*font_size, drops[i]*font_size);
+                //sending the drop back to the top randomly after it has crossed the screen
+                //adding a randomness to the reset to make the drops scattered on the Y axis
+                if(drops[i]*font_size > c.height && Math.random() > 0.975)
+                    drops[i] = 0;
+                //incrementing Y coordinate
+                drops[i]++;
+            }
+        }
+        setInterval(draw, 33); </script>
+      </div>
+      <div class="u-clearfix u-gutter-0 u-layout-wrap u-layout-wrap-1">
+        <div class="u-layout">
+          <div class="u-layout-row">
+            <div class="u-align-left-sm u-align-left-xs u-container-style u-layout-cell u-size-30 u-layout-cell-1">
+              <div class="u-container-layout u-container-layout-1">
+                <h1 class="u-custom-font u-font-montserrat u-text u-text-default u-text-palette-2-light-3 u-text-1">WELLCOME TO THE<br>SHIBAlliance.
+                </h1>
+                <h4 class="u-custom-font u-font-montserrat u-text u-text-default u-text-palette-2-light-3 u-text-2">We grow together.<br>We stay together.<br>SHIBAlliance.
+                </h4>
+              </div>
+            </div>
+            <div class="u-container-style u-hidden-sm u-layout-cell u-size-30 u-layout-cell-2">
+              <div class="u-container-layout u-valign-top u-container-layout-2">
+                <img class="u-image u-image-contain u-image-default u-preserve-proportions lazyload u-image-1" alt="" data-image-width="600" data-image-height="600" data-src="images/SHIBAllianceLOGOwithbadgeCustom.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-black u-clearfix u-section-2" id="carousel_3e14">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-shape u-shape-svg u-text-palette-2-base u-shape-1">
+          <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 150" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1b21"></use></svg>
+          <svg class="u-svg-content" viewBox="0 0 160 150" x="0px" y="0px" id="svg-1b21"><path d="M43.2,126.9c14.2,1.3,27.6,7,39.1,15.6c8.3,6.1,19.4,10.3,32.7,5.3c11.7-4.4,18.6-17.4,21-30.2c2.6-13.3,8.1-25.9,15.7-37.1
+	c8.3-12.1,10.8-27.9,5.3-42.7C150.5,20.3,134.6,9,117,7.6C107.9,6.9,98.8,5,90.1,1.9C83-0.6,75-0.7,67.4,2.1
+	c-9.9,3.7-17,11.6-20.1,21c-3.3,10.1-10.9,18-20.6,22.2c-0.1,0-0.1,0.1-0.2,0.1c-20.3,8.9-31,32-24.6,53.2
+	C6.9,115.6,25.2,125.2,43.2,126.9z"></path></svg>
+        </div>
+        <div class="u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-shape u-shape-svg u-text-palette-2-dark-3 u-shape-2">
+          <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 130" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-71c0"></use></svg>
+          <svg class="u-svg-content" viewBox="0 0 160 130" x="0px" y="0px" id="svg-71c0"><path d="M52.6,11.4C12,28.8-29.7,90.3,29.4,124c19.1,10.9,43.7,6.6,57.2-10.7c0.4-0.5,0.8-1,1.1-1.5c17.8-24.6,32.6-4.1,48.4-8.5
+	C180.4,91.2,168.9-38.5,52.6,11.4z"></path></svg>
+        </div>
+        <div class="box u-container-style u-expanded-width-xs u-grey-90 u-group u-opacity u-opacity-80 u-radius-50 u-shape-round u-group-1">
+          <div class="u-container-layout u-valign-middle u-container-layout-1">
+            <h3 class="u-align-center u-text u-text-default-lg u-text-default-md u-text-default-sm u-text-default-xl u-text-palette-2-base u-text-1">ABOUT SHIBALLIANCE </h3>
+            <h2 class="u-align-justify u-text u-text-palette-2-light-3 u-text-2"> The SHIBAlliance is an association of several projects that grow together and exchange technologies​ and marketing among themselves to get the most benefit for the community. We have realized that it is best for everyone to work together. There is no competition with us. <br>
+            </h2>
+          </div>
+        </div>
+        <div class="u-container-style u-expanded-width u-group u-shape-rectangle u-group-2">
+          <div class="u-container-layout u-container-layout-2">
+            <div class="box u-container-align-center-xl u-container-style u-expanded-width-xs u-grey-90 u-group u-hover-feature u-opacity u-opacity-70 u-radius-16 u-shape-round u-group-3">
+              <div class="u-container-layout u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-valign-middle-xs u-container-layout-3">
+                <h3 class="u-align-center u-text u-text-default u-text-palette-2-base u-text-3">SHARING</h3>
+                <h4 class="u-align-center u-custom-font u-font-montserrat u-text u-text-palette-2-light-3 u-text-4">TECHNOLOGIES</h4>
+              </div>
+            </div>
+            <div class="box u-align-center u-container-style u-expanded-width-sm u-expanded-width-xs u-grey-90 u-group u-hover-feature u-opacity u-opacity-70 u-radius-16 u-shape-round u-group-4">
+              <div class="u-container-layout u-container-layout-4">
+                <h3 class="u-text u-text-default u-text-palette-2-base u-text-5">GAINING</h3>
+                <h4 class="u-custom-font u-font-montserrat u-text u-text-palette-2-light-3 u-text-6">EXPERIENCE</h4>
+              </div>
+            </div>
+            <div class="box u-container-style u-expanded-width-xs u-grey-90 u-group u-hover-feature u-opacity u-opacity-70 u-radius-16 u-shape-round u-group-5">
+              <div class="u-container-layout u-valign-middle-xs u-container-layout-5">
+                <h3 class="u-align-center u-text u-text-default u-text-palette-2-base u-text-7">boosting</h3>
+                <h4 class="u-align-center u-custom-font u-font-montserrat u-text u-text-palette-2-light-3 u-text-8">MARKETING</h4>
+              </div>
+            </div>
+            <a href="https://t.me/SHIBAlliance" class="u-active-palette-2-dark-3 u-border-none u-btn u-btn-round u-button-style u-hover-palette-2-dark-1 u-palette-2-base u-radius-50 u-btn-1" target="_blank">get in touch with us</a>
+          </div>
+        </div>
+        <div class="box u-align-center u-border-2 u-border-palette-2-base u-container-style u-expanded-width-xs u-grey-90 u-group u-opacity u-opacity-80 u-radius-50 u-shape-round u-group-6">
+          <div class="u-container-layout u-valign-middle-xs u-container-layout-6">
+            <h3 class="u-text u-text-default u-text-palette-2-base u-text-9"> SHIBALLIANCE</h3>
+            <h2 class="u-text u-text-palette-2-light-3 u-text-10"> ADVANTAGES <br>
+            </h2>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+    </section>
+    <section class="u-clearfix u-section-3" id="sec-07ea">
+      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-xl u-sheet-1">
+        <div class="box u-align-center u-border-2 u-border-palette-2-base u-container-style u-expanded-width-sm u-expanded-width-xs u-grey-90 u-group u-opacity u-opacity-80 u-radius-50 u-shape-round u-group-1">
+          <div class="u-container-layout u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-container-layout-1">
+            <h3 class="u-text u-text-default u-text-palette-2-base u-text-1">SHIBALLIANCE OFFICIAL</h3>
+            <h2 class="u-text u-text-palette-2-light-3 u-text-2">LAUNCHPAD</h2>
+            <a href="https://t.me/ShibariumLaunchpad" class="u-active-palette-2-dark-3 u-border-none u-btn u-btn-round u-button-style u-hover-feature u-hover-palette-2-base u-palette-2-base u-radius-50 u-btn-1" target="_blank">get in touch with us</a>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section class="u-black u-clearfix u-section-4" id="sec-73cf">
+      <div class="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
+        <div class="u-container-style u-expanded-width u-group u-group-1">
+          <div class="u-container-layout u-container-layout-1">
+            <div class="u-shape u-shape-svg u-text-palette-2-base u-shape-1">
+              <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-b6b8"></use></svg>
+              <svg class="u-svg-content" viewBox="0 0 160 160" x="0px" y="0px" id="svg-b6b8"><path d="M157.4,45.5c11.3-39.1-16.3-50.2-43.8-43.8c-25.2,5.8-35.5,17.2-61,16.5C21.7,17.4,0,39.8,0,71.3
+	c0,49.1,58.2,47.8,76.2,68.5c38.8,44.7,92.8,8.2,79.3-40.3C148.1,73.2,155.9,50.6,157.4,45.5z"></path></svg>
+            </div>
+            <div class="u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-shape u-shape-svg u-text-palette-2-dark-3 u-shape-2">
+              <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 110" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-5b6e"></use></svg>
+              <svg class="u-svg-content" viewBox="0 0 160 110" x="0px" y="0px" id="svg-5b6e"><path d="M57.5,5.6c-17-10.9-35.9-4.1-45.4,4.5C-4.4,24.9-13.6,56.8,50.4,93.6c106.8,61.5,141.6-69.8,77.4-78.5
+	C84.5,9.3,88.9,25.8,57.5,5.6z"></path></svg>
+            </div>
+            <div class="box u-align-center u-container-style u-grey-90 u-group u-opacity u-opacity-80 u-radius-50 u-shape-round u-group-2">
+              <div class="u-container-layout u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-container-layout-2">
+                <h3 class="u-text u-text-default u-text-palette-2-base u-text-1">SHIBALLIANCE Partnered</h3>
+                <h2 class="u-text u-text-palette-2-light-3 u-text-2">PROJECTS</h2>
+              </div>
+            </div>
+            <div class="box u-align-center u-border-2 u-border-palette-2-base u-container-style u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-grey-90 u-group u-opacity u-opacity-80 u-radius-50 u-shape-round u-group-3">
+              <div class="u-container-layout u-container-layout-3">
+                <div class="u-list u-list-1">
+                  <div class="u-repeater u-repeater-1">
+                    <div class="u-container-style u-custom-item u-grey-90 u-hover-feature u-list-item u-radius-30 u-repeater-item u-shape-round u-list-item-1">
+                      <div class="u-container-layout u-similar-container u-container-layout-4">
+                        <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-xl u-image u-image-round u-radius-5 lazyload u-image-1" data-image-width="480" data-image-height="480" data-src="images/VampV2.png">
+                        <div class="box u-align-center u-container-style u-expanded-width-lg u-expanded-width-md u-expanded-width-xl u-group u-palette-2-base u-shape-rectangle u-group-4">
+                          <div class="u-container-layout u-valign-middle u-container-layout-5">
+                            <h5 class="u-custom-font u-font-montserrat u-text u-text-3">ShibaPunks</h5>
+                          </div>
+                        </div>
+                        <div class="u-align-justify u-container-style u-expanded-width-lg u-expanded-width-md u-expanded-width-xl u-group u-shape-rectangle u-group-5">
+                          <div class="u-container-layout u-container-layout-6">
+                            <p class="u-text u-text-4">Classic. Unique. More Pixels. ​ShibaPunks are unique and well-known at the same time, although they are something totally new. You can even earn money with them without having to sell them. More info? Then join the OG PunkFamily ​and stake them now.</p>
+                            <a href="https://t.me/ShibaPunkArmy" class="u-active-palette-2-dark-3 u-border-none u-btn u-btn-round u-button-style u-custom-item u-hover-palette-2-dark-1 u-palette-2-base u-radius-50 u-btn-1" target="_blank">JOIN THEM</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="u-align-center u-container-style u-custom-item u-grey-90 u-hover-feature u-list-item u-radius-30 u-repeater-item u-shape-round u-list-item-2">
+                      <div class="u-container-layout u-similar-container u-container-layout-7">
+                        <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-xl u-image u-image-round u-radius-5 lazyload u-image-2" data-image-width="875" data-image-height="875" data-src="images/photo_2023-01-04_13-06-45.jpg">
+                        <div class="box u-align-center u-container-style u-expanded-width-lg u-expanded-width-md u-expanded-width-xl u-group u-palette-2-base u-shape-rectangle u-group-6">
+                          <div class="u-container-layout u-valign-middle u-container-layout-8">
+                            <h5 class="u-custom-font u-font-montserrat u-text u-text-5">3D Punks<br>
+                            </h5>
+                          </div>
+                        </div>
+                        <div class="u-align-justify u-container-style u-expanded-width-lg u-expanded-width-md u-expanded-width-xl u-group u-shape-rectangle u-group-7">
+                          <div class="u-container-layout u-container-layout-9">
+                            <p class="u-text u-text-6"> The classic punks have left the 2-dimensional space in order to be able to look around, how it probably looks in 3D in this world. Apparently they like it a lot. Can you get some of them? 3D Punks, like all projects within SHIBAlliance, can be staked to earn money with them.</p>
+                            <a href="https://t.me/Punks3DShiba" class="u-active-palette-2-dark-3 u-border-none u-btn u-btn-round u-button-style u-custom-item u-hover-palette-2-dark-1 u-palette-2-base u-radius-50 u-btn-2" target="_blank">JOIN THEM</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="u-align-center u-container-style u-custom-item u-grey-90 u-hover-feature u-list-item u-radius-30 u-repeater-item u-shape-round u-list-item-3">
+                      <div class="u-container-layout u-similar-container u-container-layout-10">
+                        <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-xl u-image u-image-round u-radius-5 lazyload u-image-3" data-image-width="1280" data-image-height="1280" data-src="images/photo_2023-01-07_21-41-41.jpg">
+                        <div class="box u-align-center u-container-style u-expanded-width-lg u-expanded-width-md u-expanded-width-xl u-group u-palette-2-base u-shape-rectangle u-group-8">
+                          <div class="u-container-layout u-valign-middle u-container-layout-11">
+                            <h5 class="u-custom-font u-font-montserrat u-text u-text-7">SHIBCRAFT</h5>
+                          </div>
+                        </div>
+                        <div class="u-align-justify u-container-style u-expanded-width-lg u-expanded-width-md u-expanded-width-xl u-group u-shape-rectangle u-group-9">
+                          <div class="u-container-layout u-container-layout-12">
+                            <p class="u-text u-text-8">The first 3D Game on Shibarium. Craft and place blocks, equipment, structures, vehicles, P2P shops and even games within the metaverse. Players designing the ever changing sandbox. Join us!</p>
+                            <a href="http://t.me/shibcraftchat" class="u-active-palette-2-dark-3 u-border-none u-btn u-btn-round u-button-style u-custom-item u-hover-palette-2-dark-1 u-palette-2-base u-radius-50 u-btn-3" target="_blank"> JOIN THEM</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="u-container-style u-custom-item u-grey-90 u-hover-feature u-list-item u-radius-30 u-repeater-item u-shape-round u-list-item-4">
+                      <div class="u-container-layout u-similar-container u-container-layout-13">
+                        <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-xl u-image u-image-round u-radius-5 lazyload u-image-4" data-image-width="640" data-image-height="640" data-src="images/photo_2022-12-25_20-22-42.jpg">
+                        <div class="box u-align-center u-container-style u-expanded-width-lg u-expanded-width-md u-expanded-width-xl u-group u-palette-2-base u-shape-rectangle u-group-10">
+                          <div class="u-container-layout u-valign-middle u-container-layout-14">
+                            <h5 class="u-custom-font u-font-montserrat u-text u-text-9">Shiba Ape Yacht Club</h5>
+                          </div>
+                        </div>
+                        <div class="u-align-justify u-container-style u-expanded-width-lg u-expanded-width-md u-expanded-width-xl u-group u-shape-rectangle u-group-11">
+                          <div class="u-container-layout u-container-layout-15">
+                            <p class="u-text u-text-10">Where the punks are, the Apes can't be missing. Ape in and&nbsp;</p>
+                            <a href="https://t.me/shibapeyachtclub" class="u-active-palette-2-dark-3 u-border-none u-btn u-btn-round u-button-style u-custom-item u-hover-palette-2-dark-1 u-palette-2-base u-radius-50 u-btn-4" target="_blank"> JOIN THEM</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+    </section>
+    
+    
+    
+    <footer class="u-black u-clearfix u-footer u-footer" id="sec-14e2"><div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
+          <div class="u-gutter-0 u-layout">
+            <div class="u-layout-row">
+              <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-20 u-layout-cell-1">
+                <div class="u-container-layout u-valign-middle u-container-layout-1">
+                  <a href="https://nftclub.cash" class="u-image u-logo u-image-1" data-image-width="256" data-image-height="256" title="nftclub" target="_blank">
+                    <img src="images/SHIBAllianceLOGOCustom.png" class="u-logo-image u-logo-image-1" data-lang-de="">
+                  </a>
+                </div>
+              </div>
+              <div class="u-align-left u-container-style u-layout-cell u-size-20 u-layout-cell-2">
+                <div class="u-container-layout u-container-layout-2"><!--position-->
+                  <div data-position="" class="u-position u-position-1"><!--block-->
+                    <div class="u-block">
+                      <div class="u-block-container u-clearfix"><!--block_header-->
+                        <h5 class="u-align-center u-block-header u-custom-font u-font-montserrat u-text u-text-palette-2-light-1 u-text-1" data-lang-de="SOCIALS"><!--block_header_content-->SOCIALS<!--/block_header_content--></h5><!--/block_header--><!--block_content-->
+                        <div class="u-block-content u-text"><!--block_content_content--><!--/block_content_content--></div><!--/block_content-->
+                      </div>
+                    </div><!--/block-->
+                  </div><!--/position--><span class="u-file-icon u-icon u-text-palette-2-base u-icon-1" data-href="https://twitter.com/SHIBAlliance" data-target="_blank"><img src="images/1384017-3ea9cdfd.png" alt="" data-lang-de=""></span><span class="u-file-icon u-icon u-text-palette-2-base u-icon-2" data-href="https://t.me/SHIBAlliance" data-target="_blank"><img src="images/2111710-fbfed907.png" alt="" data-lang-de=""></span>
+                </div>
+              </div>
+              <div class="u-align-left u-container-style u-hidden-md u-hidden-sm u-hidden-xs u-layout-cell u-right-cell u-size-20 u-layout-cell-3">
+                <div class="u-container-layout u-container-layout-3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="u-align-left u-text u-text-3" data-lang-de="<a class=&quot;u-active-none u-btn-1 u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-text-hover-custom-color-2&quot; href=&quot;https://nftclub.cash&quot; target=&quot;_blank&quot; style=&quot;background-image: none; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px&quot;>Copyright NFTclub.cash</a>">
+          <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-hover-palette-2-base u-text-palette-2-light-3 u-btn-1" href="https://shiballiance.org" data-lang-de="Copyright NFTclub.cash">Copyright SHIBALLIANCE.ORG</a>
+        </p>
+      </div></footer><span style="height: 64px; width: 64px; margin-left: 0px; margin-right: auto; margin-top: 0px; background-image: none; right: 20px; bottom: 35px; padding: 10px; box-shadow: 0 2px 8px 0 rgba(51,51,51,1);" class="u-back-to-top u-icon u-icon-circle u-opacity u-opacity-85 u-palette-2-base u-spacing-15" data-href="#">
+        <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 551.13 551.13"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1d98"></use></svg>
+        <svg class="u-svg-content" enable-background="new 0 0 551.13 551.13" viewBox="0 0 551.13 551.13" xmlns="http://www.w3.org/2000/svg" id="svg-1d98"><path d="m275.565 189.451 223.897 223.897h51.668l-275.565-275.565-275.565 275.565h51.668z"></path></svg>
+    </span>
+  
+</body></html>
